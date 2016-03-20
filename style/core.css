@@ -65,5 +65,26 @@ body {
             background-color: black; }
           body div.topNav nav.topMenu ul li a:hover, body div.topNav nav.topMenu ul li a:active, body div.topNav nav.topMenu ul li a:focus {
             outline: 0; }
+    body div.topNav nav.registration {
+      height: 50px;
+      line-height: 43px;
+      float: right;
+      padding-right: 30px;
+      font-family: 'robotoRegular';
+      color: #fff; }
+      body div.topNav nav.registration label {
+        font-size: .85em;
+        height: 75%;
+        padding: 5px;
+        border-radius: 7px;
+        -webkit-transition: all .65s ease-out 0s;
+        -moz-transition: all .65s ease-out 0s;
+        transition: all .65s ease-out 0s; }
+        body div.topNav nav.registration label:hover {
+          cursor: pointer;
+          color: #169E8D;
+          background-color: black; }
+      body div.topNav nav.registration i {
+        color: #fff; }
 
 /*# sourceMappingURL=core.css.map */
