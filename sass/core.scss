@@ -1,0 +1,114 @@
+
+html,body{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+	font-family: 'robotoMedium';
+	src: url('../fonts/roboto/Roboto-Medium-webfont.eot');
+	src: local('robotoMedium'), url('../fonts/roboto/Roboto-Medium-webfont.woff') format('woff'), url('../fonts/roboto/Roboto-Medium-webfont.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'robotoLight';
+	src: url('../fonts/roboto/Roboto-Light-webfont.eot');
+	src: local('robotoLight'), url('../fonts/roboto/Roboto-Light-webfont.woff') format('woff'), url('../fonts/roboto/Roboto-Light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'robotoRegular';
+	src: url('../fonts/roboto/Roboto-Regular-webfont.eot');
+	src: local('robotoRegular'), url('../fonts/roboto/Roboto-Regular-webfont.woff') format('woff'), url('../fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype');
+}
+
+body{
+    
+    background-image: url(../img/bg02.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    background-color: rgb(240, 240, 240);
+
+    margin: 0;
+    
+    font-family:'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    
+    div.topNav{
+        width: 100%;
+        height: 50px;
+//        background-color: rgba(255, 255, 255, 0.41);
+        position: relative;
+        top: 30px;
+        
+        
+        nav.topMenu{
+
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                float: left;
+                padding-left: 30px;
+                
+                li{
+                    
+                    display: inline;
+                    line-height: 50px;
+                    padding-right: 15px;
+                    letter-spacing: 1px;
+
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                    
+                    a{
+                        text-decoration: none;
+//                        color: #5C5C5C;
+                        color: #FFF;
+                        font-family: 'robotoRegular';
+                        font-size: .85em;
+                        
+                        
+                        background-color: transparent;
+                        border-radius: 7px;
+                        padding: 2px 7px;
+                        -webkit-transition: all .65s ease-out 0s;
+                        -moz-transition: all .65s ease-out 0s;
+                        transition: all .65s ease-out 0s;
+                                  
+                        &:hover{
+                            cursor: pointer;
+                            color: #169E8D;
+                            background-color: black;                        
+
+                        }
+
+                        &:hover, &:active, &:focus{
+                            outline: 0;
+                        } 
+                        
+                    }
+                }
+            }
+
+
+
+        }
+        
+    }
+
+    
+    
+    
+    
+    
+}
