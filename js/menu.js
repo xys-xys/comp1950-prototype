@@ -1,9 +1,10 @@
 (function(){
     
-    var $topMenuLinks = $('div.topNav nav.topMenu ul li a'),
+    var $topMenuLinks = $('div.topNav nav.topMenu  ul  li a.menuLink'),
         $studentLink = $('nav.topMenu >ul >li').last(),
         $studentSubMenu = $studentLink.children('ul.sub-menu'),
-        $studentSBlinks = $('div.topNav nav.topMenu ul li > ul.sub-menu > li > a');
+        $studentSBlinks = $('div.topNav nav.topMenu ul li > ul.sub-menu > li > a'),
+        $regLinks = $('nav.registration');
     
     
     $studentSubMenu.hide();
@@ -26,6 +27,7 @@
     function clearClick(){
         
         var itemsLn = $topMenuLinks.length;
+
         
         for (var i=0;i<itemsLn;i++){
             var index = $(this).index();
@@ -47,6 +49,8 @@
         e.preventDefault();
     });
     
-
+    $regLinks.on('click',function(){
+        clearClick();
+    })
     
 })();
