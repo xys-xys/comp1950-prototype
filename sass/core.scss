@@ -27,6 +27,14 @@ html,body{
 	src: local('robotoRegular'), url('../fonts/roboto/Roboto-Regular-webfont.woff') format('woff'), url('../fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype');
 }
 
+
+
+.clicked{
+    background-color: black;
+    color: red;
+}
+
+
 body{
     
     background-image: url(../img/bg02.jpg);
@@ -73,7 +81,7 @@ body{
 
                     >ul.sub-menu{
                         position: absolute;
-                        top: 27px;
+                        top: 21px;
                         left: 0;
                         width: 100%;
                         list-style: none;
@@ -97,6 +105,7 @@ body{
                             >a{
                                 width: 82%;
                                 text-decoration: none;
+//                                color:#b94a48;
                                 color: rgb(250, 250, 250);
                                 display:inline-block;
                                 font-family: 'robotoRegular';

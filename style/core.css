@@ -19,6 +19,10 @@ html, body {
   font-family: 'robotoRegular';
   src: url("../fonts/roboto/Roboto-Regular-webfont.eot");
   src: local("robotoRegular"), url("../fonts/roboto/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Regular-webfont.ttf") format("truetype"); }
+.clicked {
+  background-color: black;
+  color: red; }
+
 body {
   background-image: url(../img/bg02.jpg);
   background-position: center center;
@@ -51,7 +55,7 @@ body {
           position: relative; }
         body div.topNav nav.topMenu ul li > ul.sub-menu {
           position: absolute;
-          top: 27px;
+          top: 21px;
           left: 0;
           width: 100%;
           list-style: none;
