@@ -44,21 +44,28 @@ body {
     body div.mainWrapper .home {
       font-family: 'Pacifico', cursive;
       text-align: center;
-      position: relative; }
+      position: relative;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100; }
       body div.mainWrapper .home h1 {
         font-size: 5.5em;
-        top: 120px;
+        top: 90px;
         position: relative; }
       body div.mainWrapper .home .newsContent {
         width: 100%;
         font-family: 'robotoLight';
         position: relative;
-        top: 142px; }
+        top: 100px; }
         body div.mainWrapper .home .newsContent article {
           padding: 50px; }
       body div.mainWrapper .home .getStarted {
         position: relative;
-        margin-top: 300px; }
+        margin-top: 250px; }
         body div.mainWrapper .home .getStarted a {
           text-decoration: none;
           font-family: 'robotoLight';
@@ -79,6 +86,40 @@ body {
             top: 2px;
             left: 10px;
             position: relative; }
+    body div.mainWrapper .outlines {
+      text-align: center;
+      position: relative;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100; }
+      body div.mainWrapper .outlines h3 {
+        font-family: 'robotoLight';
+        display: none; }
+    body div.mainWrapper .blog {
+      text-align: center;
+      position: relative;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100; }
+      body div.mainWrapper .blog h3 {
+        font-family: 'robotoLight';
+        display: none; }
+      body div.mainWrapper .blog div > object {
+        width: 100%;
+        height: 87%;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 13%; }
   body div.topNav {
     width: 100%;
     height: 50px;

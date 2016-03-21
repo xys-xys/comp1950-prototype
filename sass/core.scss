@@ -62,10 +62,17 @@ body{
             font-family: 'Pacifico', cursive;
             text-align: center;
             position: relative;
-
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 100;
+            
             h1{
                 font-size: 5.5em;
-                top: 120px;
+                top: 90px;
                 position: relative;
             }
             
@@ -74,7 +81,7 @@ body{
                 width: 100%;
                 font-family: 'robotoLight';
                 position: relative;
-                top: 142px;
+                top: 100px;
                 
                 article{
                     padding: 50px;
@@ -83,7 +90,7 @@ body{
             
             .getStarted{
                 position: relative;
-                margin-top: 300px;
+                margin-top: 250px;
                 a{
                     text-decoration: none;
                     font-family: 'robotoLight';
@@ -109,6 +116,52 @@ body{
                     }
                     
                 }
+            }
+        }
+        
+        .outlines{
+            text-align: center;
+            position: relative;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; 
+            z-index: 100;
+            
+            h3{
+                font-family: 'robotoLight';
+                display: none;
+            }
+        }
+        
+        
+        .blog{
+            text-align: center;
+            position: relative;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; 
+            z-index: 100;
+            
+            h3{
+                font-family: 'robotoLight';
+                display: none;
+            }
+            
+            div > object{
+                width: 100%;
+                height: 87%;
+                overflow: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                top: 13%;
+                
             }
         }
 
