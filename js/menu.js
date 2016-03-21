@@ -14,7 +14,7 @@
         });
     
     $studentLink.on('click', function(event){
-        $studentSubMenu.slideToggle(300);
+        $studentSubMenu.slideDown(300);
         
         event.preventDefault(); 
     });
@@ -45,18 +45,23 @@
     
     $topMenuLinks.on('click',function(e){
         clearClick();
+        
         $(this).css({
             'color' : '#169E8D',
             backgroundColor : 'black'
         });
-        
+        $studentSubMenu.slideUp(300);
         e.preventDefault();
     });
     
     $regLinks.on('click',function(){
         clearClick();
-        $studentSubMenu.fadeOut(200);
-    })
+        $studentSubMenu.slideUp(300);
+
+        
+    });
+    
+
     
 })();
 

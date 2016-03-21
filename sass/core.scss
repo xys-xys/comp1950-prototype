@@ -50,12 +50,46 @@ body{
     font-weight: normal;
     font-size: 16px;
     
+    div.mainWrapper{
+        width: 100%;
+        height: 80%;
+        background-color: rgba(0, 0, 0, 0.19);
+        position: relative;
+        top: 70px;
+        color: #F5F5F5;
+        
+        .home{
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            position: relative;
+
+            h1{
+                font-size: 5.5em;
+                top: 120px;
+                position: relative;
+            }
+            
+            .newsContent{
+                
+                width: 100%;
+                font-family: 'robotoLight';
+                position: relative;
+                top: 142px;
+                
+                article{
+                    padding: 50px;
+                }
+            }
+        }
+
+    }
+    
     div.topNav{
         width: 100%;
         height: 50px;
         position: relative;
         top: 30px;
-        
+        z-index: 100;
         
         nav.topMenu{
 
