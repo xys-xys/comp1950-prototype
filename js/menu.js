@@ -8,6 +8,10 @@
     
     
     $studentSubMenu.hide();
+    $topMenuLinks.eq(0).css({
+            'color' : '#169E8D',
+            backgroundColor : 'black'
+        });
     
     $studentLink.on('click', function(event){
         $studentSubMenu.slideToggle(300);
@@ -51,6 +55,10 @@
     
     $regLinks.on('click',function(){
         clearClick();
+        $studentSubMenu.fadeOut(200);
     })
     
 })();
+
+
+
