@@ -56,6 +56,29 @@ body {
         top: 142px; }
         body div.mainWrapper .home .newsContent article {
           padding: 50px; }
+      body div.mainWrapper .home .getStarted {
+        position: relative;
+        margin-top: 300px; }
+        body div.mainWrapper .home .getStarted a {
+          text-decoration: none;
+          font-family: 'robotoLight';
+          color: #FFF;
+          background-color: rgba(0, 0, 0, 0.4);
+          padding: 30px 40px;
+          border-radius: 13px;
+          font-size: 1.2em;
+          -webkit-transition: all .65s ease-out 0s;
+          -moz-transition: all .65s ease-out 0s;
+          transition: all .65s ease-out 0s; }
+          body div.mainWrapper .home .getStarted a:hover {
+            color: #169E8D; }
+          body div.mainWrapper .home .getStarted a i {
+            font-size: 1.5em;
+            margin: 0;
+            padding: 0;
+            top: 2px;
+            left: 10px;
+            position: relative; }
   body div.topNav {
     width: 100%;
     height: 50px;
