@@ -8,7 +8,10 @@
         $home = $('body div.mainWrapper .home'),
         $outlines = $('body div.mainWrapper .outlines'),
         $blog = $('body div.mainWrapper .blog'),
-        $blogContainer = $('body div.mainWrapper .blog div > object');
+        $blogContainer = $('body div.mainWrapper .blog div > object'),
+
+	// Larry Edition
+	$mobileMenu = $('#mobile-menu');
     
 
     
@@ -113,7 +116,13 @@
         $blog.find('h3').slideDown(300);
         $blogContainer.fadeIn(300);
     });
-    
+
+    // Larry Edition
+    $mobileMenu.on('click',function(){
+	$('div.topNav > nav').toggle(0, function(){
+		$(this).toggleClass('mobile-down').css('display', '');
+	});
+    })
     
 })();
 

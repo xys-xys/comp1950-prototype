@@ -46,12 +46,19 @@ body {
       text-align: center;
       position: relative;
       height: 100%;
+
+
+/* Larry Edition */
+/*
+
       position: absolute;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
-      z-index: 100; }
+      z-index: 100;
+*/
+}
       body div.mainWrapper .home h1 {
         font-size: 5.5em;
         top: 90px;
@@ -186,6 +193,7 @@ body {
             background-color: black; }
           body div.topNav nav.topMenu ul li a:hover, body div.topNav nav.topMenu ul li a:active, body div.topNav nav.topMenu ul li a:focus {
             outline: 0; }
+
     body div.topNav nav.registration {
       height: 50px;
       line-height: 43px;
@@ -209,3 +217,51 @@ body {
         color: #fff; }
 
 /*# sourceMappingURL=core.css.map */
+
+
+/* Larry Edition */
+.mobile-down { display: block; }
+#mobile-menu { display:none;cursor:pointer; }
+@media only screen and (max-width:550px) {
+
+	body div.topNav {
+		position:absolute;
+		left:10px;
+	}
+	body div.topNav nav.topMenu ul {
+		padding:0;
+		width:90%;
+		background:#111000;
+		opacity:0.9;
+	}
+	body div.topNav nav.topMenu ul li {
+		display:block;
+		width:100%;
+	}
+	body div.topNav nav.topMenu ul li a {
+		display:block;
+		width:100%;
+	}
+
+	body div.topNav nav.registration {
+		position:absolute;
+		top:310px;
+		padding:0;
+		width:90%;
+		background:#111000;
+		opacity:0.9;
+		height: auto;
+		float: none;
+		padding:0;
+	}
+	body div.topNav nav.registration label { display:block; }
+
+	#mobile-menu { display:block; }
+	div.topNav > nav { display: none; }
+	/* show the menu */
+	div.topNav > nav.mobile-down {
+		display: block;
+	}
+
+}
+
