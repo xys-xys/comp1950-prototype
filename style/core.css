@@ -201,6 +201,7 @@ body {
       padding-right: 30px;
       font-family: 'robotoLight';
       color: #fff; }
+
       body div.topNav nav.registration label {
         font-size: .85em;
         height: 75%;
@@ -209,10 +210,12 @@ body {
         -webkit-transition: all .65s ease-out 0s;
         -moz-transition: all .65s ease-out 0s;
         transition: all .65s ease-out 0s; }
+
         body div.topNav nav.registration label:hover {
           cursor: pointer;
           color: #169E8D;
           background-color: black; }
+
       body div.topNav nav.registration i {
         color: #fff; }
 
@@ -238,23 +241,22 @@ body {
 		display:block;
 		width:100%;
 	}
-	body div.topNav nav.topMenu ul li a {
-		display:block;
-		width:100%;
+        body div.topNav nav.topMenu ul li > ul.sub-menu {
+		position: relative;
 	}
 
+
 	body div.topNav nav.registration {
-		position:absolute;
-		top:310px;
+		float:left;
 		padding:0;
 		width:90%;
+		height:auto;
 		background:#111000;
 		opacity:0.9;
-		height: auto;
-		float: none;
-		padding:0;
 	}
-	body div.topNav nav.registration label { display:block; }
+	body div.topNav nav.registration label {
+		width:100%;
+	 }
 
 	#mobile-menu { display:block; }
 	div.topNav > nav { display: none; }

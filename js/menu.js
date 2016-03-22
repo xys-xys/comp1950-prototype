@@ -90,9 +90,13 @@
     });
     
     // STUDENT ACCESS LINK CLICK EVENT
+    // Larry Edition - make it collapse
     $studentLink.on('click', function(event){
-        $studentSubMenu.slideDown(300);
-        
+	if( $studentSubMenu.css('display')=='none' ){
+		$studentSubMenu.slideDown(300);
+	}else{
+		$studentSubMenu.slideUp(300);
+	}        
         event.preventDefault(); 
     });
     
